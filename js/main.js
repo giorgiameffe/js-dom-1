@@ -9,3 +9,11 @@ pictureElement.src = '../img/white_lamp.png';
 
 const btnElement = document.querySelector('.power-button');
 console.log(btnElement);
+
+// 
+
+btnElement.addEventListener('click', function(){
+
+    pictureElement.setAttribute('src', 'img/yellow_lamp.png');
+
+})
