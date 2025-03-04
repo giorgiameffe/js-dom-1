@@ -11,13 +11,12 @@ pictureElement.alt = 'white-lamp-picture'
 const btnElement = document.querySelector('.power-button');
 console.log(btnElement);
 
-// 
+// cambio immagine al click del bottone
 
 btnElement.addEventListener('click', function(){
 
     pictureElement.setAttribute('src', '../img/yellow_lamp.png');
     pictureElement.setAttribute('alt', 'yellow-lamp-picture');
-
 
 })
 
